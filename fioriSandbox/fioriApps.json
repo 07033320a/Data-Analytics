@@ -1,0 +1,10 @@
+{
+	"applications" : { 
+        "myFioriApp-display" : {
+            "title": "Data Analytics",
+            "additionalInformation" : "SAPUI5.Component=Logistics",
+            "applicationType" : "URL",
+            "url" : "./"
+        }
+    }
+}

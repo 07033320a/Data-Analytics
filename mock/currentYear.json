@@ -1,0 +1,15 @@
+{
+	"PlantCode" : "N002",
+	"Year" : "2016",
+	"AhorroXFlota" : "150.000",
+	"Cobertura" : "1.140",
+	"CostoLogistico" : "1.200",
+	"CostoMt3Camion" : "0.000",
+	"CostoMt3Transp" : "128.370",
+	"CrossDock" : "0.000",
+	"DesvioStock" : "0.000",
+	"EfectXDedesp" : "0.000",
+	"GastosXVentas" : "0.750",
+	"ProdKmCamion" : "0.000",
+	"PromSucCamion" : "0.000"
+}

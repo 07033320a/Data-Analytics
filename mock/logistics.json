@@ -1,0 +1,182 @@
+{
+	"Overview": {
+		"PromSucCamionValue": 1.87,
+		"PromSucCamionLastValue": 2.80,
+		"PromSucCamionTarget": 2.400,
+		"PromSucCamionLow": 2.160,
+		"PromSucCamionHigh": 2.400,
+		"PromSucCamionMin": 0,
+		"PromSucCamionMax": 4,
+
+		"EfectivenessValue": 94.2,
+		"EfectivenessLastValue": 92,
+		"EfectivenessTarget": 94,
+		"EfectivenessLow": 89.3,
+		"EfectivenessHigh": 94,
+		"EfectivenessMin": 0,
+		"EfectivenessMax": 100,
+
+		"ProductividadCamionPropioValue": 10470,
+		"ProductividadCamionPropioLastValue": 9810,
+		"ProductividadCamionPropioTarget": 11000,
+		"ProductividadCamionPropioLow": 10450,
+		"ProductividadCamionPropioHigh": 11000,
+		"ProductividadCamionPropioMin": 0,
+		"ProductividadCamionPropioMax": 15000,
+
+		"CostoXM3Value": 128.37,
+		"CostoXM3LastValue": 239.07,
+		"CostoXM3Target": 77,
+		"CostoXM3Low": 83.16,
+		"CostoXM3High": 77,
+		"CostoXM3Min": 0,
+		"CostoXM3Max": 300,
+
+		"PromM3TransportadoValue": 72.0,
+		"PromM3TransportadoLastValue": 72.2,
+		"PromM3TransportadoTarget": 70,
+		"PromM3TransportadoLow": 66.5,
+		"PromM3TransportadoHigh": 70,
+		"PromM3TransportadoMin": 0,
+		"PromM3TransportadoMax": 90,
+
+		"CostoLogisticoVentasValue": 1.10,
+		"CostoLogisticoVentasLastValue": 1.0,
+		"CostoLogisticoVentasTarget": 1.43,
+		"CostoLogisticoVentasLow": 0.9,
+		"CostoLogisticoVentasHigh": 1.43,
+		"CostoLogisticoVentasMin": 0,
+		"CostoLogisticoVentasMax": 3.0,
+
+		"CoberturaValue": 1.140,
+		"CoberturaLastValue": 1.127,
+		"CoberturaTarget": 1.25,
+		"CoberturaLow": 1.0,
+		"CoberturaHigh": 1.50,
+		"CoberturaMin": 0,
+		"CoberturaMax": 2.0,
+
+		"GastosValue": 0.8,
+		"GastosLastValue": 0.799,
+		"GastosTarget": 0.70,
+		"GastosLow": 0.6,
+		"GastosHigh": 0.9,
+		"GastosMin": 0,
+		"GastosMax": 1.0,
+
+		"CrossDockValue": 3.595,
+		"CrossDockLastValue": 2.938,
+		"CrossDockTarget": 2.700,
+		"CrossDockLow": 2.500,
+		"CrossDockHigh": 3.500,
+		"CrossDockMin": 0,
+		"CrossDockMax": 5.000,
+
+		"DesvioStockValue": 0.17,
+		"DesvioStockLastValue": 0.09,
+		"DesvioStockTarget": 0.12,
+		"DesvioStockLow": 0.7,
+		"DesvioStockHigh": 0.2,
+		"DesvioStockMin": 0,
+		"DesvioStockMax": 1,
+
+		"AhorradoValue": 150000,
+		"AhorradoLastValue": 45000,
+		"AhorradoTarget": 180000,
+		"AhorradoLow": 40000,
+		"AhorradoHigh": 20000,
+		"AhorradoMin": 0,
+		"AhorradoMax": 300000
+	},
+	"TotalTransported": {
+		"Total": 19932.017,
+		"TotalUnit": "M3"
+	},
+	"AhorroFlotaKm": 37309,
+	"AhorroFlotaCur": 426815,
+	"Last10M3": [
+		{"Region": "San Luis", "Transported": 1077.00},
+		{"Region": "Rio IV", "Transported": 758.30},
+		{"Region": "Viedma", "Transported": 752.87},
+		{"Region": "Necochea", "Transported": 657.58},
+		{"Region": "Concordia", "Transported": 652.10},
+		{"Region": "Parana", "Transported": 633.16},
+		{"Region": "Chivilcoy", "Transported": 620.85},
+		{"Region": "Concepción", "Transported": 554.91},
+		{"Region": "Tres Arroyos", "Transported": 550.37},
+		{"Region": "Azul", "Transported": 527.38}
+	],
+	"EffectivenessHistory": [
+		{"Label": "ABR15", "Trips": 117, "Effectiveness": 89.74},
+		{"Label": "MAY15", "Trips": 106, "Effectiveness": 90.57},
+		{"Label": "JUN15", "Trips": 118, "Effectiveness": 91.60},
+		{"Label": "JUL15", "Trips": 135, "Effectiveness": 87.41},
+		{"Label": "AGO15", "Trips": 116, "Effectiveness": 83.62},
+		{"Label": "SEP15", "Trips": 124, "Effectiveness": 93.60},
+		{"Label": "OCT15", "Trips": 140, "Effectiveness": 84.40},
+		{"Label": "NOV15", "Trips": 147, "Effectiveness": 92.52},
+		{"Label": "DIC15", "Trips": 187, "Effectiveness": 86.77},
+		{"Label": "ENE16", "Trips": 155, "Effectiveness": 83.23},
+		{"Label": "FEBABR16", "Trips": 124, "Effectiveness": 91.13},
+		{"Label": "MAR16", "Trips": 119, "Effectiveness": 92.44}
+	],
+	"Dispatch": [
+		{
+			"Category": "Camiones enviados",
+            "Ene2016": 155,
+            "Feb2016": 124,
+            "Mar2016": 119,
+            "Total": 398
+		},
+		{
+			"Category": "Semis",
+            "Ene2016": 136,
+            "Feb2016": 105,
+            "Mar2016": 100,
+            "Total": 379
+		},
+		{
+			"Category": "Preremitos armados",
+            "Ene2016": 291,
+            "Feb2016": 260,
+            "Mar2016": 250,
+            "Total": 801
+		},
+		{
+			"Category": "Promedio de Suc",
+            "Ene2016": 1877,
+            "Feb2016": 2097,
+            "Mar2016": 2101,
+            "Total": 2013
+		},
+		{
+			"Category": "Guias enviadas",
+            "Ene2016": 155,
+            "Feb2016": 124,
+            "Mar2016": 119,
+            "Total": 398
+		},
+		{
+			"Category": "Sin observaciones",
+            "Ene2016": 129,
+            "Feb2016": 113,
+            "Mar2016": 110,
+            "Total": 352
+		},
+		{
+			"Category": "Cruce",
+            "Ene2016": 8,
+            "Feb2016": 4,
+            "Mar2016": 2,
+            "Total": 14
+		}
+	],
+	"Observations": [
+		{ "Category": "A", "Number": 14},
+		{ "Category": "B", "Number": 12},
+		{ "Category": "C", "Number": 11},
+		{ "Category": "D", "Number": 4},
+		{ "Category": "E", "Number": 3},
+		{ "Category": "F", "Number": 1}
+	]
+}

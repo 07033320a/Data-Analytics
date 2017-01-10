@@ -1,0 +1,50 @@
+
+/***************************Message box helper****************************/
+.dialogCustom
+{
+	background-color: #005670;
+	color: #fff;
+}
+
+.dialogCustom.sapMMessageDialog.sapMPopup-CTX>header.sapMDialogTitle,
+.dialogCustom .sapMDialogSection,
+.dialogCustom.sapMDialog>section,
+.sap-desktop .dialogCustom .sapMIBar.sapMFooter-CTX
+{
+	background-color: transparent;
+}
+
+.dialogCustom .sapMBar
+{
+	text-shadow: none;
+}
+
+.dialogCustom.sapMMessageDialog.sapMPopup-CTX>header.sapMDialogTitle,
+.dialogCustom.sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapMLabel,
+.dialogCustom.sapMDialog>header.sapMDialogTitle>.sapMBarMiddle>.sapMBarPH>.sapMTitle
+{
+	color: #fff;
+}
+
+.dialogCustom .sapMLnk:hover:not(.sapMLnkDsbl),
+.dialogCustom .sapMLnk:visited,
+.dialogCustom .sapMLnk,
+.dialogCustom .sapMLnk:focus
+{
+	color:#00D7C2;
+}
+
+#dialogAlert .btnTransparent .sapMBtnCustomIcon
+{
+	color: #fff;
+}
+
+#dialogConfirm .sapMBtnIcon
+{
+	color:#fff;
+}
+
+#dialogConfirm .sapMBtn:hover > .sapMBtnHoverable
+{
+	background-color:transparent;
+}

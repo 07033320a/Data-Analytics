@@ -1,0 +1,479 @@
+/****************************************************Generals*************************************************/
+
+.invisible {
+	display: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.marginTop
+{
+	margin-top: 6pt;	
+}
+
+.marginBottom
+{
+	margin-bottom: 6pt;
+}
+
+.marginLeft
+{
+	margin-left: 6pt;
+}
+
+.marginRight
+{
+	margin-right: 6pt;
+}
+
+.marginRightPercent
+{
+	margin-right: 2% !important;
+}
+
+.divWidth div
+{
+	width: 60pt;
+	justify-content: center;
+	display: flex;
+}
+
+.transitionOneSeg
+{
+	transition: 1s;
+	-moz-transition: 1s;
+	-webkit-transition: 1s;
+}
+
+.lowOpacity
+{
+	opacity: 0.3;
+}
+
+.noOpacity
+{
+	opacity: 0 !important;
+	transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+.rounded
+{
+	border-radius : 2em;
+
+}
+
+.sapMPage  {
+	background-color:#fff;
+}
+
+.sapMPageHeader::before
+{
+	border-top: none;
+}
+
+.wrappableFlexbox{
+	flex-flow: row wrap;
+}
+
+.appTitle {
+    font-size: 1.5rem;
+    line-height: 3rem;
+	color: #1D91B8;
+}
+
+.playPauseBtn
+{
+	position: absolute;
+	top: 0pt;
+	right: 10pt
+}
+
+#UnitMovementChart
+{
+	position: relative;
+}
+
+/****************************************************Main*************************************************/
+
+.sapMPageWithFooter>section {
+	bottom: 0rem;
+}
+
+#dateInputMonth>input
+{
+	border-radius: 2em;
+	text-align: center;
+}
+
+.menuBox
+{
+	background-color: #009de0;
+	transition: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-moz-transition: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	-webkit-transition: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	border-radius: 2em;
+}
+
+#mainPage footer
+{
+	background-color: transparent;
+	border-top: none;
+	height: 4em;
+}
+
+#mainPage>header>.sapMBarRight
+{
+	padding: 0;
+}
+
+#mainPage>header>.sapMBarRight .sapMBarLeft
+{
+	margin-left: 1%;
+}
+
+#mainPage>header>.sapMBarRight .sapMBarRight
+{
+	margin-right: 1%;
+}
+
+.menuExtended
+{
+	width: 98% !important;
+	background-color: #006e9d;
+}
+
+.menuExtended img
+{
+	opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+.menuExtended #menuBtn
+{
+	transform: rotate(90deg);
+}
+
+#hBoxMenu
+{
+	margin-left: 20px;
+	margin-top: 12px;
+	padding-left: 9px;
+	z-index: 999;
+}
+
+#menuBtn
+{
+	transition: 2s;
+	-moz-transition: 2s;
+	-webkit-transition: 2s;
+}
+
+#hBoxMenu div
+{
+	align-items: center;
+    display: flex;
+}
+
+#tblOverviewTable .numberRed {
+	color: #d62728;
+	font-weight: bold;
+}
+
+#tblOverviewTable .numberYellow {
+	color: #ff7f0e;
+	font-weight: bold;
+}
+
+#tblOverviewTable .numberGreen {
+	color: #2ca02c;
+	font-weight: bold;
+}
+
+.viewSubtitle
+{
+	text-align: left !important;
+	font-size: 17pt !important;;
+	line-height: 50pt !important;;
+	margin-left: 23pt !important;;
+}
+
+/************************************************ Floating Menu - Select Chart *******************************/
+
+footer .sapMBarContainer.sapMBarRight{
+	justify-content: flex-end;
+	display: flex;
+}
+
+#navChartMenu
+{
+	width: 46px;
+	height: 50px;
+
+	background: #eb1c23;
+	box-shadow: 3px 4px 8px -1px black;
+	border-radius: 8em;
+
+	justify-content: flex-end;
+	align-items: stretch;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	padding-right: 4px;
+
+	transition: .8s;
+	-moz-transition: .8s;
+	-webkit-transition: .8s;
+}
+
+#navChartMenu div
+{
+	align-items: center;
+	display: flex;
+}
+
+#navChartMenu img
+{
+	margin-right: 2% !important;
+	opacity: 1.0;
+	transition: opacity .55s ease-in-out;
+	-moz-transition: opacity .55s ease-in-out;
+	-webkit-transition: opacity .55s ease-in-out;
+}
+
+#navChartMenu.expanded
+{
+	width: 210px !important;
+	opacity: 1.0 !important;
+}
+
+#navChartMenu.expandedFiveItems
+{
+	width: 215px !important;
+	opacity: 1.0 !important;
+}
+
+#navChartMenu.expandedThreeItems
+{
+	width: 135px !important;
+	opacity: 1.0 !important;
+}
+
+/****************************************************INFORMES*************************************************/
+.reportTile
+{
+	margin: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.reportTile .title
+{
+	background: #333;
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: bold;
+	transition: all 1s ease;
+    opacity: 0.7;
+	padding: 4px;
+}
+
+.reportTile:hover .title
+{
+	background: #eb1c23;
+	color: #fff;
+}
+
+.reportTile .description {
+    position: absolute;
+    bottom: 0px;
+	color: #fff;
+    transition: all 1s ease;
+    opacity: 0;
+    height: 0px;
+	padding: 4px;
+}
+
+.reportTile:hover .description {
+    background-color: #333;
+    opacity: 0.7;
+    height: 40px;
+}
+
+#tileMovimientosUnidades
+{
+	background-image: url("../img/tile_movimientos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tileStockMonetarizado
+{
+	background-image: url("../img/tile_stock_monetarizado.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tileStockUnidades
+{
+	background-image: url("../img/tile_stock_unidades.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tileTransportCosts
+{
+	background-image: url("../img/tile_costos_transporte.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#tileIncomingUnits
+{
+	background-image: url("../img/tile_recepciones_unidades.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#chartUnitMovement .c3-chart-line {
+  stroke-width: 5px;
+}
+
+#btnBackBox
+{
+	width: 46px;
+	height: 50px;
+
+	align-items: center;
+	justify-content: center;
+
+	background: #eb1c23;
+	box-shadow: 3px 4px 8px -1px black;
+	border-radius: 8em;
+
+	margin-left: 2em;
+	margin-bottom: 2em;
+	padding-right: 4px;
+
+	transition: .8s;
+	-moz-transition: .8s;
+	-webkit-transition: .8s;
+}
+
+/******************************Download Excel**************************/
+
+footer .sapMBarMiddle .sapMBarContainer.sapMBarPH{
+	height: auto;
+	padding-right: 0.5rem;
+}
+
+#downloadExcelBox
+{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 2em;
+
+	background: #eb1c23;
+	box-shadow: 3px 4px 8px -1px black;
+	border-radius: 8em;
+
+	align-items: center;
+	justify-content: center;
+
+	transition: .8s;
+	-moz-transition: .8s;
+	-webkit-transition: .8s;
+}
+
+#downloadExcelBox>div
+{
+	align-items: center;
+	display: flex;
+}
+
+/***************************************Compare View**************************************/
+#searchBox {
+	background-color: lightblue;
+	height: 50pt;
+}
+
+#searchBox div {
+	border-radius: 2em;
+	align-items: center;
+	display: flex;
+}
+
+#searchBox input {
+	border-radius: 2em;
+}
+
+#chartBox {
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+#chartBox>div {
+	display: list-item;
+}
+
+/*****************************************Configuration***************************************/
+#configBox .sapMInput
+{
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+#configBox .sapMText
+{
+	margin-left: 2%;
+}
+
+#btnSaveConfig
+{
+	margin-left: 2%;
+}
+
+#configBox div
+{
+	width: 100%;
+}
+
+#targetsBox div
+{
+	width: 100%;
+}
+
+#languageBox 
+{
+	display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 8px;
+    top: 4px;
+    border-color: black;
+    border-radius: 2em;
+    align-items: center;
+}
+
+#languageBox div:nth-child(2)
+{
+	display: none;	
+}
+
+.openedLangBox
+{
+	background-color: rgba(100, 100, 100, 0.5);
+}
+
+.openedLangBox div
+{
+   	display: flex !important;
+}
+
+#dateInputMonth {
+	margin-right: 38px;
+}

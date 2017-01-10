@@ -1,0 +1,14 @@
+{
+	"parameters":
+	{
+		"CostoMt3TranspTarget": "214",
+		"CostoLogisticoTarget": "1.3",
+		"CoberturaTarget": "1.8",
+		"GastosXVentasTarget": "2.6",
+		"Sucursales": "12",
+		"CostoXKMFlotaPropia": "123",
+		"CostoXKMTractorTerc": "32",
+		"CostoXKMFlotaDoubleStar": "24"
+
+	}
+}

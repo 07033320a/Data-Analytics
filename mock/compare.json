@@ -1,0 +1,34 @@
+{
+	"PeriodsSet": [
+		{
+			"Month" : 3,
+			"Year" : 2016,
+			"Value" : 12000
+		},
+		{
+			"Month" : 4,
+			"Year" : 2016,
+			"Value" : 14000
+		},
+		{
+			"Month" : 5,
+			"Year" : 2016,
+			"Value" : 8000
+		},
+		{
+			"Month" : 6,
+			"Year" : 2016,
+			"Value" : 10000
+		},
+		{
+			"Month" : 7,
+			"Year" : 2016,
+			"Value" : 13000
+		},
+		{
+			"Month" : 8,
+			"Year" : 2016,
+			"Value" : 12000
+		}
+	]
+}

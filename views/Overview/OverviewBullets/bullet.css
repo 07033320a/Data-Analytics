@@ -1,0 +1,34 @@
+﻿.bullet { font: 10px sans-serif; }
+
+.bullet .tick line { stroke: #666; stroke-width: .5px; }
+
+.bullet .measure.s0 { fill: lightsteelblue; }
+.bullet .measure.s1 { fill: steelblue; }
+
+/*titulos*/
+.bullet .title { 
+	font-size: 14px; 
+	font-weight: bold; 
+}
+.bullet .subtitle { 
+	fill: #999; 
+}
+
+/*semaforo de fondo*/
+.bullet .range.s0 { 
+	fill: #d6f6d6; 
+}
+
+.bullet .range.s1 { 
+	fill: #f0dac7; 
+}
+
+.bullet .range.s2 { 
+	fill: #f4cece; 
+}
+
+/*target line*/
+.bullet .marker { 
+	stroke: #000;
+	stroke-width: 4px; 
+}

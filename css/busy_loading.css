@@ -1,0 +1,25 @@
+/***************************Loading****************************/
+.sapMBusyDialog  {
+  background: #fff;
+  border: none !important;
+}
+
+.sapMBusyDialog.sapMPopup-CTX .sapMIBar.sapMHeader-CTX
+{
+  background: #80CC28;
+}
+
+.sapMBusyDialog .sapMDialogTitle
+{
+  color: #fff;
+}
+
+.sapMBusyDialog .sapMLabel
+{
+  color: #0573AC;
+}
+
+.sapMBusyDialog svg.sapMBusySvg
+{
+	stroke: #0573AC;
+}
